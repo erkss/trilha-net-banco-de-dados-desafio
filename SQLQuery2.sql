@@ -104,7 +104,7 @@ FROM
 INNER JOIN 
 	FilmesGenero ON Filmes.Id = FilmesGenero.IdFilme 
 INNER JOIN 
-	Generos ON FilmesGenero.IdGenero = Generos.Id;
+	Generos ON FilmesGenero.IdGenero = Generos.Id
 
 -- 11
 
@@ -118,7 +118,7 @@ INNER JOIN
 INNER JOIN 
 	Generos ON FilmesGenero.IdGenero = Generos.Id
 WHERE 
-	Genero = 'Mistério';
+	Genero = 'MistÃ©rio'
 
 -- 12
 
